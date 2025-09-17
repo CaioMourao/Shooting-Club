@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "cN+KUK/0k68=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caio_\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\countrydata\\6.13.0\\countrydata.6.13.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.5\\microsoft.extensions.configuration.9.0.5.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.5\\microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.5\\microsoft.extensions.configuration.binder.9.0.5.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
