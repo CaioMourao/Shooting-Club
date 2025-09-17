@@ -1,0 +1,128 @@
+.armas-content {
+  padding: 50px 2rem 2rem 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 30px;
+  box-sizing: border-box;
+}
+
+.header-armas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.titulo-descricao h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.descricao-armas {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.botoes-superiores-inline {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-pesquisar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-cadastrar {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.filtros-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.search-select {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  min-width: 140px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.search-select:focus {
+  border-color: #007bff;
+}
+
+.filter-icon {
+  font-size: 20px;
+  color: #555;
+}
+
+
+.search-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  color: #333;
+  position: relative;
+}
+
+.search-checkbox-label input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #888;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.search-checkbox-label input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.checkbox-icon {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.search-checkbox-label input[type="checkbox"]:checked + .checkbox-icon {
+  opacity: 1;
+}
+

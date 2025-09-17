@@ -1,0 +1,194 @@
+.home-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+}
+
+.home-layout {
+  display: flex;
+  width: 100%;
+}
+
+.home-content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 250px;
+  transition: margin-left 0.3s ease;
+  padding-top: 80px;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.home-content.collapsed {
+  margin-left: 70px;
+}
+
+.VisaoH2{
+  font-size: 28px;
+  color: #000000 !important;
+  margin-bottom: 10px;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e2a38; 
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.logo-home {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+  border-left: 5px solid #1e2a38; 
+}
+
+.card.destaque {
+  border-color: #1e2a38; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.lembretes-container {
+  background: #ffffff;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.lembretes-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lembretes-lista li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+@media (max-width: 1024px) {
+  .home-content {
+    padding: 1.5rem;
+    margin-left: 70px;
+  }
+
+  .home-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    padding: 1rem;
+    margin-left: 0;
+  }
+
+  .home-header {
+    padding: 15px;
+  }
+
+  .sidebar-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .lembretes-container {
+    padding: 15px;
+  }
+
+  .lembretes-lista li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header h2 {
+    font-size: 20px;
+  }
+
+  .VisaoH2 {
+    font-size: 20px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .lembretes-lista li {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,135 @@
+.editar-perfil-modal .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.editar-perfil-modal .modal-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 40px 20px;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.editar-perfil-modal .modal-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.editar-perfil-modal .modal-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.editar-perfil-modal .modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.editar-perfil-modal .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.editar-perfil-modal .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.editar-perfil-modal .form-group label {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.editar-perfil-modal .form-group input,
+.editar-perfil-modal .form-group select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.editar-perfil-modal .form-group input:focus,
+.editar-perfil-modal .form-group select:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.editar-perfil-modal .modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.editar-perfil-modal .btn-submit {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.editar-perfil-modal .btn-submit:hover {
+  background-color: #222;
+}
+
+.editar-perfil-modal .btn-cancel {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.editar-perfil-modal .btn-cancel:hover {
+  background-color: #aaa;
+}
+
+.editar-perfil-modal .form-row.single-column {
+  grid-template-columns: 1fr;
+}
+
+.editar-perfil-modal .input-error {
+  border-color: #d32f2f !important;
+  box-shadow: 0 0 0 1px #d32f2f20;
+}
+
+@media (max-width: 700px) {
+  .editar-perfil-modal .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .editar-perfil-modal .modal-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

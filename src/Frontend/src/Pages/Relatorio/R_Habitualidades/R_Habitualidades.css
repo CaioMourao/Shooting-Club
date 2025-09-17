@@ -1,0 +1,80 @@
+.r-habi-page {
+  display: flex;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.r-habi-layout {
+  display: flex;
+  flex: 1;
+}
+
+.r-habi-content {
+  padding: 50px 2rem 2rem 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 30px;
+  transition: margin-left 0.3s ease;
+  width: 100%;
+}
+
+.r-habi-content h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.r-habi-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.r-habi-content.expanded {
+  margin-left: 250px;
+}
+
+.r-habi-content.collapsed {
+  margin-left: 70px;
+}
+
+.search-bar-container {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 45px 12px 35px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+}
+
+.r-habi-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.r-habi-table th,
+.r-habi-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 28px;
+  text-align: left;
+}
+
+.r-habi-table th {
+  background-color: #fff;
+  font-weight: bold;
+}

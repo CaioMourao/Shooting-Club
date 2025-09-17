@@ -1,0 +1,249 @@
+.usuario-content {
+  padding: 50px 2rem 2rem 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 30px;
+  box-sizing: border-box;
+}
+
+.header-usuario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.usuario-content h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.descricao-usuario {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.botoes-superiores-inline {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.btn-pesquisar {
+  background-color: #00ff51;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botoes-superiores {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-pesquisar,
+.btn-cadastrar {
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pesquisar {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-pesquisar:hover {
+  background-color: #00b31e;
+}
+
+.btn-cadastrar {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-cadastrar:hover {
+  background-color: #0056b3;
+}
+
+.btn-pesquisar:hover {
+  background-color: #0056b3;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input-group {
+  position: relative;
+  flex: 1 1 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #888;
+}
+
+.search-options-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+
+.filter-icon {
+  font-size: 20px;
+  color: #555;
+}
+
+.search-select {
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  color: #333;
+  position: relative;
+}
+
+.search-checkbox-label input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #888;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+}
+
+.search-checkbox-label input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.checkbox-icon {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.search-checkbox-label input[type="checkbox"]:checked + .checkbox-icon {
+  opacity: 1;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.usuario-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  border-radius: 6px;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.usuario-table th,
+.usuario-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.usuario-table th {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.acoes-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.acoes-usuario button {
+  background: none !important;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  color: inherit;
+  transition: transform 0.2s ease;
+  box-shadow: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  line-height: 1;
+}
+
+.acoes-usuario button:hover {
+  transform: scale(1.2);
+  background: none !important;
+}
+
+.btn-visualizar {
+  color: #2d89ef; 
+}
+
+.btn-editar {
+  color: #f0ad4e; 
+}
+
+.btn-deletar {
+  color: #d9534f; 
+}
+

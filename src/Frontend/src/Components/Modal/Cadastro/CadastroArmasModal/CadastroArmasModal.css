@@ -1,0 +1,159 @@
+.cadastro-armas-modal .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.cadastro-armas-modal .modal-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 40px 20px; 
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", sans-serif;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.cadastro-armas-modal .modal-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.cadastro-armas-modal .modal-box p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.cadastro-armas-modal .modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cadastro-armas-modal .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.cadastro-armas-modal .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-armas-modal .form-group label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.cadastro-armas-modal .form-group input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.cadastro-armas-modal .form-group input:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.cadastro-armas-modal .form-group select {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.cadastro-armas-modal .form-group select:focus {
+  border-color: #000;
+  outline: none;
+}
+
+
+.cadastro-armas-modal .modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.cadastro-armas-modal .btn-submit {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cadastro-armas-modal .btn-submit:hover {
+  background-color: #222;
+}
+
+.cadastro-armas-modal .btn-cancel {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cadastro-armas-modal .form-group.form-control-checkbox {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 6px; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.cadastro-armas-modal .form-group.form-control-checkbox input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+}
+
+.cadastro-armas-modal .form-group.form-control-checkbox label {
+    font-size: 14px;
+    color: #333;
+}
+
+
+.cadastro-armas-modal .btn-cancel:hover {
+  background-color: #aaa;
+}
+
+@media (max-width: 700px) {
+  .cadastro-armas-modal .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cadastro-armas-modal .modal-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

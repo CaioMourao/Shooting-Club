@@ -1,0 +1,69 @@
+.datagrid-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.datagrid-table {
+  width: 100%;
+  font-size: 16px;
+  table-layout: fixed;
+  word-wrap: break-word;
+  border: none;
+  border-radius: 0;
+}
+
+
+.datagrid-table th {
+  padding: 6px 8px;
+  text-align: center;     
+  font-weight: 600;
+  border: none;
+  background: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+
+.datagrid-table td {
+  padding: 6px 8px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  text-align: center;     
+  overflow-wrap: break-word;
+  border: none;
+}
+
+
+.datagrid-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center; 
+  white-space: nowrap;
+}
+
+
+.datagrid-table tbody tr td {
+  min-height: 40px;
+}
+
+.datagrid-actions button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 8px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  width: 42px;
+  height: 42px;
+}
+
+.datagrid-actions button:hover {
+  background-color: rgba(0,0,0,0.1);
+}

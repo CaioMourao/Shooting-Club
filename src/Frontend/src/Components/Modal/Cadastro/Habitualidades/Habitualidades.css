@@ -1,0 +1,85 @@
+.habitualidades-page {
+  display: flex;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.habitualidades-layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.habitualidades-content {
+  flex: 1;
+  padding: 50px 2rem 2rem 2rem;
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 30px;
+}
+
+.habitualidades-content h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.habitualidades-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row.full {
+  width: 100%;
+}
+
+.habitualidades-form input,
+.habitualidades-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.2s ease;
+}
+
+.habitualidades-form input:focus,
+.habitualidades-form select:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.habitualidades-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.btn-cadastrar {
+  padding: 12px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-cadastrar:hover {
+  background-color: #222;
+}
+
+.habitualidades-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
