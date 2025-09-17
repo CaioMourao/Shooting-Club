@@ -1,0 +1,506 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.API\\ShootingClub.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.API\\ShootingClub.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.API\\ShootingClub.API.csproj",
+        "projectName": "ShootingClub.API",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.API\\ShootingClub.API.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj"
+              },
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\ShootingClub.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\ShootingClub.Infrastructure.csproj"
+              },
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj"
+              },
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj",
+        "projectName": "ShootingClub.Application",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\ShootingClub.Application.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj"
+              },
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj"
+              },
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "CountryData": {
+              "target": "Package",
+              "version": "[6.13.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj",
+        "projectName": "ShootingClub.Domain",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\ShootingClub.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\ShootingClub.Infrastructure.csproj",
+        "projectName": "ShootingClub.Infrastructure",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\ShootingClub.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj": {
+                "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Backend\\ShootingClub.Domain\\ShootingClub.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj",
+        "projectName": "ShootingClub.Communication",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\ShootingClub.Communication.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Communication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj",
+        "projectName": "ShootingClub.Exceptions",
+        "projectPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\ShootingClub.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\caio_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caio_\\source\\repos\\Project\\Shooting-Club\\src\\Shared\\ShootingClub.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\caio_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
